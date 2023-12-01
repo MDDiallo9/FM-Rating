@@ -1,7 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 :root {
   --white: hsl(0, 0%, 100%);
   --lightgrey: hsl(217, 12%, 63%);
@@ -15,15 +15,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
 }
 
-.bgrey{
+.bgrey {
   background-color: #2d3742;
 }
-.darkblue{
+.darkblue {
   background-color: hsl(213, 19%, 18%);
 }
-.orange{
+.orange {
   background-color: hsl(25, 97%, 53%);
 }

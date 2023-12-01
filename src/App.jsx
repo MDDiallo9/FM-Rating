@@ -9,7 +9,7 @@ function App() {
     e.preventDefault()
     const formData = new FormData(e.target)
     let data = formData.get("rating")
-    setState({rating:data, submitted: true})
+    setState({rating:data > 0 ? data : 1, submitted: true})
 }
   return (
     <>
